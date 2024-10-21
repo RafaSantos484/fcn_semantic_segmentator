@@ -73,7 +73,7 @@ def get_fcn_model():
 
     outputs = layers.Conv2D(1, (1, 1), activation='sigmoid')(c9)
 
-    model = models.Model(inputs=[inputs], outputs=[outputs])
+    model = models.Model(inputs, outputs)
     return model
 
 

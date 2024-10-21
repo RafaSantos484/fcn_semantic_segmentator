@@ -2,4 +2,4 @@
 color_mode = 'RGB'
 img_size = 128
 
-epochs = 30
+epochs = 20
